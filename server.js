@@ -11,7 +11,7 @@ const PORT = process.env.PORT
 ///////////////////////////////
 
 
-const data_url = process.env.data_url
+const data_url = process.env.DATA_URL
 const CONFIG = {
     useNewUrlParser: true,
     useUnifiedTopology: true
