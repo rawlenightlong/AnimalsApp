@@ -52,7 +52,7 @@ app.use(express.static("public"))
 ///////////////
 
 app.get('/', (req, res) => {
-    res.send(`Your app is running`)
+    res.redirect('/animals')
 })
 
 // SEED ROUTE
