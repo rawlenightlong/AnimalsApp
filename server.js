@@ -70,6 +70,12 @@ app.get('/animals/seed', (req, res) => {
       })
 })
 
+
+//landing page
+app.get('/', (req, res) => {
+    res.redirect('/animals')
+})
+
 // INDEX ROUTE
 app.get('/animals', (req, res) => {
     Animal.find({})
